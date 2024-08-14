@@ -23,10 +23,10 @@ constexpr long OFF_VIEWMATRIX = 0x11a350;  //[Miscellaneous]->ViewMatrix
 
 // Buttons
 constexpr long OFF_INATTACK = 0x0769b5d8;         //[Buttons]->in_attack
-constexpr long OFF_IN_JUMP = 0x0769a5f0;          //[Buttons]->in_jump
-constexpr long OFF_IN_DUCK = 0x0769a6e8;          //[Buttons]->in_duck
-constexpr long OFF_IN_FORWARD = 0x0769a428;       //[Buttons]->in_forward
-constexpr long OFF_IN_BACKWARD = 0x0769a450;    //[Buttons]->in_backward
+constexpr long OFF_IN_JUMP = 0x0769b6e0;          //[Buttons]->in_jump
+constexpr long OFF_IN_DUCK = 0x0769b7e8;          //[Buttons]->in_duck
+constexpr long OFF_IN_FORWARD = 0x0769b528;       //[Buttons]->in_forward
+constexpr long OFF_IN_BACKWARD = 0x0769b550;    //[Buttons]->in_backward
 constexpr long OFF_TRAVERSAL_START_TIME = 0x2b70; //[RecvTable.DT_LocalPlayerExclusive]->m_traversalStartTime
 constexpr long OFF_TRAVERSAL_PROGRESS = 0x2b6c;   //[RecvTable.DT_LocalPlayerExclusive]->m_traversalProgress
 constexpr long OFF_WALL_RUN_START_TIME = 0x3614;  //[RecvTable.DT_LocalPlayerExclusive]->m_wallRunStartTime
@@ -54,7 +54,7 @@ constexpr long OFF_PUNCH_ANGLES = 0x2438;       //[DataMap.C_Player]->m_currentF
 constexpr long OFF_YAW = 0x223c - 0x8;          //m_currentFramePlayer.m_ammoPoolCount - 0x8
 constexpr long OFF_MODELNAME = 0x0030;          //m_ModelName
 constexpr long OFF_OBSERVER_LIST = 0x1f17ee8;   //observerList: 48 8B 0D ? ? ? ? 48 85 C9 74 ? 48 8B 01 FF ? ? 48 85 C0 74 ? 48 63 4E 38
-constexpr long OFF_OBSERVER_LIST_IN_ARRAY = 0x964 + 0x10; // 0x964 before
+constexpr long OFF_OBSERVER_LIST_IN_ARRAY = 0x974; // 0x964 before
 constexpr long OFF_SKY_DIVE_STATUS = 0x4724;   //m_skydiveState
 constexpr long OFF_DUCK_STATUS = 0x2a60;   // m_duckState
 constexpr long OFF_CENTITY_FLAGS = 0x00c8;   //m_fFlags
