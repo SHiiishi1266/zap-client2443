@@ -61,7 +61,7 @@ constexpr long OFF_CENTITY_FLAGS = 0x00c8;   //m_fFlags
 
 // Weapon
 constexpr long OFF_WEAPON_HANDLE = 0x1944;            //[RecvTable.DT_Player]->m_latestPrimaryWeapons
-constexpr long OFF_WEAPON_INDEX = 0x1574;             //[RecvTable.DT_WeaponX]->m_weaponNameIndex
+constexpr long OFF_WEAPON_INDEX = 0x1788;             //[RecvTable.DT_WeaponX]->m_weaponNameIndex
 constexpr long OFF_PROJECTILESCALE = 0x1ec4 + 0x8; //projectile_gravity_scale + [WeaponSettingsMeta]base
 constexpr long OFF_PROJECTILESPEED = 0x1ec4; //projectile_launch_speed + [WeaponSettingsMeta]base
 constexpr long OFF_OFFHAND_WEAPON = 0x1954;           //m_latestNonOffhandWeapons
