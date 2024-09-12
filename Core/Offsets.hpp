@@ -1,25 +1,25 @@
 #pragma once
 #include <string>
 // https://www.unknowncheats.me/forum/apex-legends/319804-apex-legends-reversal-structs-offsets.html
-// GameVersion = v3.0.76.22
+// GameVersion = v3.0.79.51
 
 std::string CheatVersion = "Version 1.1.4";
-std::string GameVersion = "v3.0.77.28";
+std::string GameVersion = "v3.0.79.51";
 
 // Core
 constexpr long OFF_REGION = 0x140000000;     //[Static]->Region
 constexpr long OFF_LEVEL = 0x17ec494;        //[Miscellaneous]->LevelName
-constexpr long OFF_LOCAL_PLAYER = 0x23e90b8; //[Miscellaneous]->LocalPlayer
-constexpr long OFF_ENTITY_LIST = 0x1f15ec8;  //[Miscellaneous]->cl_entitylist
+constexpr long OFF_LOCAL_PLAYER = 0x2429238; //[Miscellaneous]->LocalPlayer
+constexpr long OFF_ENTITY_LIST = 0x1F55FB8;  //[Miscellaneous]->cl_entitylist
 constexpr long OFF_NAME_INDEX = 0x38;        //nameIndex
 constexpr long OFF_NAME_LIST = 0xd3503c0;    //[Miscellaneous]->NameList
-constexpr long OFF_GAMEMODE = 0x02421110;    //mp_gamemode
+constexpr long OFF_GAMEMODE = 0x2461290;    //mp_gamemode
 constexpr long OFF_SQUAD_ID = 0x0344;        //m_squadID
 constexpr long OFF_GLOBAL_VARS = 0x17ebf90;  //[Miscellaneous]->GlobalVars
 
 // HUD
-constexpr long OFF_VIEWRENDER = 0x769b4d8; //[Miscellaneous]->ViewRender
-constexpr long OFF_VIEWMATRIX = 0x11a350;  //[Miscellaneous]->ViewMatrix
+constexpr long OFF_VIEWRENDER = 0x76DD0D8; //[Miscellaneous]->ViewRender
+constexpr long OFF_VIEWMATRIX = 0x11A350;  //[Miscellaneous]->ViewMatrix
 
 // Buttons
 constexpr long OFF_INATTACK = 0x0769b5d8;         //[Buttons]->in_attack
